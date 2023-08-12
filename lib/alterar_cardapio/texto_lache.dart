@@ -12,7 +12,16 @@ class TextoLanche extends StatefulWidget {
 class TextoLancheState extends State<TextoLanche> {
   // ignore: annotate_overrides
   Widget build(BuildContext context) {
-    return Text('X-Lombo de Pato',
+    List Imagens = [
+      'pato-bacon_solo',
+      'pato-combo',
+      'pato-frango',
+      'pato-grelhado',
+      'coca',
+      'guarana',
+    ];
+
+    return Text('Lanche',
         style: TextStyle(
             color: Colors.black, fontWeight: FontWeight.bold, fontSize: 20));
   }

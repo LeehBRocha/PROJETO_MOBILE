@@ -20,7 +20,13 @@ class HamburguerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(),
-      home: LoginPage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => LoginPage(),
+        '/home': (context) => HomePage(),
+        '/alterarcardapio': (context) => AlterarCardapio(),
+        '/voltar': (context) => HomePage()
+      },
     );
   }
 }

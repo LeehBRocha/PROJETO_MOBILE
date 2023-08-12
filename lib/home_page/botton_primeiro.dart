@@ -21,7 +21,7 @@ class TesteBottonState extends State<TesteBotton> {
           shadowColor: Colors.black,
           elevation: 30),
       onPressed: () {
-        AlterarCardapio();
+        Navigator.of(context).pushNamed('/alterarcardapio');
       },
       child: Text(
         'Alterar Cardapio',

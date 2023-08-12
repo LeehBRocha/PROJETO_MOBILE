@@ -14,6 +14,6 @@ class TextoAlterarCardapioState extends State<TextoAlterarCardapio> {
   Widget build(BuildContext context) {
     return Text('Alterar Cardapio',
         style: TextStyle(
-            color: Colors.orange, fontWeight: FontWeight.bold, fontSize: 40));
+            color: Colors.white, fontWeight: FontWeight.bold, fontSize: 40));
   }
 }

@@ -12,6 +12,8 @@ class TituloHome extends StatefulWidget {
 class TituloHomeState extends State<TituloHome> {
   // ignore: annotate_overrides
   Widget build(BuildContext context) {
-    return Text('Pato', style: TextStyle(color: Colors.black, fontSize: 40));
+    return Text('Pato',
+        style: TextStyle(
+            color: Colors.black, fontSize: 40, fontWeight: FontWeight.bold));
   }
 }

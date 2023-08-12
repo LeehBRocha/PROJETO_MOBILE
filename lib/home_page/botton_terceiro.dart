@@ -14,7 +14,7 @@ class TerceiroBottonState extends State<TerceiroBotton> {
   Widget build(BuildContext context) {
     return TextButton(
       style: TextButton.styleFrom(
-          padding: EdgeInsets.fromLTRB(80, 30, 80, 30),
+          padding: EdgeInsets.fromLTRB(70, 30, 70, 30),
           backgroundColor: Colors.white,
           shadowColor: Colors.black,
           elevation: 30),

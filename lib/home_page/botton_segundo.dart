@@ -14,13 +14,13 @@ class SegundoBottonState extends State<SegundoBotton> {
   Widget build(BuildContext context) {
     return TextButton(
       style: TextButton.styleFrom(
-          padding: EdgeInsets.fromLTRB(80, 30, 80, 30),
+          padding: EdgeInsets.fromLTRB(60, 30, 55, 30),
           backgroundColor: Colors.white,
           shadowColor: Colors.black,
           elevation: 30),
       onPressed: () {},
       child: Text(
-        'Alterar Senha',
+        'Alterar Contato',
         style: TextStyle(color: Colors.orange, fontSize: 40),
       ),
     );

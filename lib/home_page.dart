@@ -40,18 +40,24 @@ class HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            Container(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  SizedBox(height: 100),
-                  TextoSecundario(),
-                  TextoSecundarioDois(),
-                  SizedBox(height: 200),
-                ],
-              ),
-            ),
+            SizedBox(height: 100),
+            Align(
+                alignment: Alignment.centerLeft,
+                child: Row(
+                  children: [
+                    SizedBox(width: 60),
+                    Container(child: TextoSecundario())
+                  ],
+                )),
+            Align(
+                alignment: Alignment.centerLeft,
+                child: Row(
+                  children: [
+                    SizedBox(width: 60),
+                    Container(child: TextoSecundarioDois())
+                  ],
+                )),
+            SizedBox(height: 200),
             Container(
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
